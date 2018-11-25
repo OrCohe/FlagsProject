@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="functions.js"></script>
+    <script src="drawCountry.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+</head>
+<body>
+    <div class="top">
+        <div class="input-group">
+            <input type="text" name="searchIn" id="searchIn" placeholder="Country name">
+            <div class="input-group-append">
+                <button class="btn btn-primary" type="button" onclick="searchFun(1)">Search</button>
+                <button class="btn btn-secondary" onclick="searchFun(2)">All</button>
+            </div>
+        </div> 
+    </div>
+    <div class="container"></div>
+</body>
+</html>
