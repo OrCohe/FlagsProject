@@ -1,7 +1,7 @@
 
 function searchFun(num) {
     if(num == 1) {
-        let search = $("#searchIn").val();
+        let search = $("#searchIn").val(); 
         var link = `https://restcountries.eu/rest/v2/name/${search}?fields=name;capital;topLevelDomain;capital;currencies;flag;alpha3Code`;
     } else {
         var link = `https://restcountries.eu/rest/v2/all?fields=name;capital;topLevelDomain;capital;currencies;flag;alpha3Code`;
